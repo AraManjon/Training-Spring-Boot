@@ -14,7 +14,7 @@ An initial spring-boot project
 
 **@RequestParam** Is telling Spring to expect a name value in the request, but if it’s not there, it will use the word “World” by default
 
-#### 🤸🏻‍♀Try it
+#### 🤸Try it
 
 > in the project directory
 >
