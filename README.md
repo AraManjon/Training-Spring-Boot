@@ -76,7 +76,8 @@ Porperties **unannotated** is assumed that they are mapped to columns that share
 
 > in the project directory
 >
-> ./mvnw spring-boot:run
+> ./mvnw spring-boot:run or java -jar target/jpa-0.0.1-SNAPSHOT.jar 
+
 
 
 
