@@ -41,7 +41,7 @@ An initial project of build an application that uses Spring Data JPA to store an
 
 #### 📝Annotations
 
-#### Customer
+##### Customer
 
 **@Entity** indicate that is a JPA entity. Because **@Table** annotation exist, it is assumed that this entity is mapped to a table with class name.
 
@@ -51,14 +51,11 @@ An initial project of build an application that uses Spring Data JPA to store an
 
 Porperties **unannotated** is assumed that they are mapped to columns that share the same names as the properties themselves.
 
---------------------------------------------------------------
-#### CustomerRepository
+##### CustomerRepository
 
 **CrudRepository** interface has inherits several methods for working with object persitence. Also lets you define other query methods by declaring their method signature. 
 
----------------------------------------------------------------
-
-#### SpringBootApplication
+##### SpringBootApplication
 
 **@SpringBootApplication** annotation that adds all of the following:
 
@@ -71,6 +68,8 @@ Porperties **unannotated** is assumed that they are mapped to columns that share
 **@Bean** Automatically runs the code when the application launches.
 
 **@EnableJpaRepositories(basePackageClasses=MyRepository.class)** You can point out alternate packages by using.
+
+---------------------------------------------------------------
 
 #### 🤸Try it
 
