@@ -29,3 +29,7 @@ build/
 
 ### VS Code ###
 .vscode/
+start.iml
+HELP.md
+mvnw.cmd
+.idea
